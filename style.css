@@ -51,11 +51,16 @@ ul li span {
     line-height: 4rem;
     font-size: 4rem;
     text-transform: uppercase;
-    /* transform: translateY(200%);*/
+    transform: translateY(200%);
     margin: 0.05rem;
 }
 
 ul li span.active{
     transform: translateY(0%);
     transition: 1s ease-out;
+}
+
+ul li:hover{
+    opacity: 0.5;
+    cursor: pointer;
 }
